@@ -1,6 +1,7 @@
 import 'package:counter_app_with_cubit/bloc/counter_cubit/counter_cubit.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:sizer/sizer.dart';
 
 class CounterHomeScreen extends StatelessWidget {
   const CounterHomeScreen({super.key});
@@ -52,8 +53,8 @@ class CounterHomeScreen extends StatelessWidget {
                 Positioned(
                   left: 110,
                   child: Container(
-                    width: 100,
-                    height: 80,
+                    width: 100.w,
+                    height: 80.h,
                     decoration: BoxDecoration(
                       color: Colors.white,
                       borderRadius: BorderRadius.circular(50),
